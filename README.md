@@ -51,7 +51,43 @@ The lifetime of an object depends on where and how it is declared:
 
 - Protected: Used mainly in inheritance scenarios.
 
+## 1. Algorithm: Car Details
 
+**Step 1**: Start
+
+**Step 2**: Define a class named Car
+
+- Declare public data members: name and year of type string.
+
+- Define member functions:
+
+- CarName() to input the car's name from the user.
+
+- CarYear() to input the car's year from the user.
+
+- displayCarName() to display the car's name.
+
+- displayCarYear() to display the car's year.
+
+**Step 3**: In the main function:
+
+- Create two objects of the class Car named c1 and c2.
+
+**Step 4**: For object c1:
+
+- Call CarName() to input the car name.
+
+- Call displayCarName() to display the car name.
+
+- Call CarYear() to input the car year.
+
+- Call displayCarYear() to display the car year.
+
+**Step 5**: For object c2:
+
+- Repeat the steps to input and display car name and year similar to c1.
+
+**Step 6**: End
 
 
   
