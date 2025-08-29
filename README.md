@@ -89,6 +89,56 @@ The lifetime of an object depends on where and how it is declared:
 
 **Step 6**: End
 
-## 2. Algorithm: 
+## 2. Algorithm: Simple Calculator
+
+**Step 1**: Start
+
+**Step 2**: Define a class named Calculator
+
+- Declare public data members:
+
+- num1 (integer)
+
+- num2 (integer)
+
+**Step 3**: Define public member functions:
+
+- enter_numbers() to input two numbers from the user.
+
+- display_num() to display the two numbers.
+
+- Addition() to return the sum of num1 and num2.
+
+- Subtraction() to return the difference of num1 and num2.
+
+- Multiplication() to return the product of num1 and num2.
+
+- Division() to return the result of division of num1 by num2.
+
+- If num2 is 0, display an error message and return 0.
+
+**Step 4**: In the main function:
+
+- Create an object c1 of the Calculator class.
+
+**Step 5**: Call member functions using the object c1:
+
+- Call enter_numbers() to input two integers.
+
+- Call display_num() to display the entered numbers.
+
+- Call Addition() and store the result in variable sum.
+
+- Call Subtraction() and store the result in variable diff.
+
+- Call Multiplication() and store the result in variable prod.
+
+- Call Division() and store the result in variable div.
+
+**Step 6**: Display the results:
+
+- Print sum, diff, prod, and div.
+
+**Step 7**: End
 
   
