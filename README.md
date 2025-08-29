@@ -89,5 +89,6 @@ The lifetime of an object depends on where and how it is declared:
 
 **Step 6**: End
 
+## 2. Algorithm: 
 
   
