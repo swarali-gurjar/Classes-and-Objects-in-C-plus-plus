@@ -51,6 +51,56 @@ The lifetime of an object depends on where and how it is declared:
 
 - Protected: Used mainly in inheritance scenarios.
 
+## 1. Algorithm: Public Class Display – Student Information
+
+**Step 1**: Start
+
+**Step 2**: Define a class named Student
+
+**Step 3**: Declare the following public data members:
+
+- name (string)
+
+- branch (string)
+
+- subject (string)
+
+- year (string)
+
+- result (float)
+
+**Step 4**: In the main() function:
+
+- Create an object s1 of the class Student.
+
+**Step 5**: Assign values to the data members of s1:
+
+- Set name as "Swarali"
+
+- Set branch as "E&TC"
+
+- Set subject as "C++"
+
+- Set year as "Second year"
+
+- Set result as 8.9
+
+**Step 6**: Display the values stored in object s1.
+
+**Step 7**: Print each data member using cout:
+
+- name
+
+- branch
+
+- subject
+
+- year
+
+- result
+
+**Step 8**: End
+
 ## 2. Algorithm: Car Details
 
 **Step 1**: Start
@@ -182,5 +232,11 @@ area = length × breadth.
 
 **Step 7**: End
 
-## 1. Algorithm: 
+## Conclusion: 
+
+Classes and objects are fundamental concepts in C++ that enable object-oriented programming. A class acts as a blueprint for creating objects, which are instances of that class. 
+Classes encapsulate data (attributes) and functions (methods) that operate on the data, promoting modularity, code reusability, and abstraction.
+By using classes and objects, programmers can model real-world entities more naturally, organize complex programs efficiently, and improve maintainability.
+Understanding how to define classes, create objects, and implement member functions is essential for effective C++ programming.
+
 
