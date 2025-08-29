@@ -51,7 +51,7 @@ The lifetime of an object depends on where and how it is declared:
 
 - Protected: Used mainly in inheritance scenarios.
 
-## 1. Algorithm: Car Details
+## 2. Algorithm: Car Details
 
 **Step 1**: Start
 
@@ -89,7 +89,48 @@ The lifetime of an object depends on where and how it is declared:
 
 **Step 6**: End
 
-## 2. Algorithm: Simple Calculator
+## 3. Algorithm: Area of a rectangle
+
+**Step 1**: Start
+
+**Step 2**: Define a class named Rectangle_Area
+
+**Step 3**: Declare two public data members:
+
+- length (integer)
+
+- breadth (integer)
+
+**Step 4**: Define three public member functions:
+
+- enter_dimensions()
+
+- Prompt the user to enter the length and breadth of the rectangle.
+
+- Store the input values in length and breadth.
+
+**Step 5**: calculate_area()
+
+- Calculate and return the area using the formula:
+area = length × breadth.
+
+**Step 6**: display_area()
+
+- Call the calculate_area() function.
+
+- Display the returned area to the user.
+
+**Step 7**: In the main function:
+
+- Create an object named rect of class Rectangle_Area.
+
+- Call rect.enter_dimensions() to input length and breadth.
+
+- Call rect.display_area() to compute and display the area.
+
+**Step 8**: End
+  
+## 4. Algorithm: Simple Calculator
 
 **Step 1**: Start
 
@@ -141,4 +182,5 @@ The lifetime of an object depends on where and how it is declared:
 
 **Step 7**: End
 
-  
+## 1. Algorithm: 
+
